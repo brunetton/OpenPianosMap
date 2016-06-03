@@ -17,8 +17,8 @@ Current filter is:
 node["musical_instrument"="piano"];
 way["musical_instrument"="piano"];
 node["amenity"="piano"];
-node["musical_instrument:piano=yes"]
-way["musical_instrument:piano=yes"]
+node["musical_instrument:piano"="yes"]
+way["musical_instrument:piano"="yes"]
 ```
 
 ## Tags stats
