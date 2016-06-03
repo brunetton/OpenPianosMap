@@ -5,7 +5,7 @@
 The goal of this project is to create an open source map of accessibles pianos (freely or not).
 Data will be hosted on OpenStreetMap.
 
-For the moment, the project is just a filter defined on [MapContrib](https://github.com/MapContrib/MapContrib).
+For the moment, the project is just a filter defined on [MapContrib](https://github.com/MapContrib/MapContrib) and there's no way to distinguish freely accessible pianos than piano bars (where pianos are only reserved for hired musicians).
 
 The map is here :
 http://www.cartes.xyz/t/e5c83c-Pianos_map
