@@ -50,3 +50,15 @@ For me its make sens to see:
 Of course, all that tags should only be used for nodes, not ways.
 
 I'll make a proposal when it's more clear for me.
+
+### Identify "real" pianos
+
+It's always usefull to know whether a piano is a real one or a digital one.
+For it we could use :
+  - musical_instrument=piano
+  - musical_instrument=digital_piano
+
+### Remove pianos stores
+
+Remove `shop=musical_instrument` in results
+
