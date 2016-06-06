@@ -5,22 +5,26 @@
 The goal of this project is to create an open source map of accessibles pianos (freely or not).
 Data will be hosted on OpenStreetMap.
 
-For the moment, the project is just a filter defined on [MapContrib](https://github.com/MapContrib/MapContrib) and there's no way to distinguish freely accessible pianos than piano bars (where pianos are only reserved for hired musicians), except for French pianos in railways stations ([pianos en gare](http://www.sncf.com/fr/presse/carte/pianos-gares)), were *operator=SNCF* is generally filled.
+For the moment, the project is "just" a filter defined on [MapContrib](https://github.com/MapContrib/MapContrib).
 
 The map is here :
 http://www.cartes.xyz/t/e5c83c-Pianos_map
 
 ## Tags used
 
-Current filter is:
+  - for free access pianos (**green** on map):
+    - nodes with `amenity=piano`
+    - nodes with `musical_instrument=piano`
+    - nodes with `musical_instrument:piano=yes`
+    - with:
+      - `access=public`
+      - **or**
+      - `operator=SNCF`
 
-```
-node["musical_instrument"="piano"];
-way["musical_instrument"="piano"];
-node["amenity"="piano"];
-node["musical_instrument:piano"="yes"]
-way["musical_instrument:piano"="yes"]
-```
+
+  - for other pianos (**gray** on map): Same as above, but without `acess=public` or `operator=SNCF` tags
+
+(overpass requests used to populate map are located in `overpass-requests` folder)
 
 ## Tags stats
 
@@ -35,9 +39,9 @@ https://taginfo.openstreetmap.org/compare/musical_instrument=piano/amenity=piano
 
 This are informations to add via OSM tags
 
-### Add access info
+### Add more access infos
 
-For the moment, there's no way to distinguish a bar with a place with a piano freely accessible and a place with a piano, but only reserved for concert for example.
+For the moment, there's no way to distinguish a bar with a place with a piano freely accessible and a place with a piano, but only reserved for concerts for example.
 As the aim of the project is to quickly find on a map freely accessible pianos, it's an important point to decide.
 
 What not using [access](http://wiki.openstreetmap.org/wiki/FR:Key:access) tag as it's used by the [toilets](http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) tag ?
@@ -62,3 +66,14 @@ For it we could use :
 
 Remove `shop=musical_instrument` in results
 
+### Add all *pianos en gare* French project
+
+The "pianos en gare" is a French project by the french railway service (SNCF) to place pianos in railways stations: http://www.sncf.com/fr/presse/carte/pianos-gares.
+`operator=SNCF` is generally filled
+
+### Add infos when clicking
+
+This is inherent to MapContrib evolutions, but it could be great to have some infos when clicking on a piano on the map:
+  - place name
+  - photo (if any)
+  - "advanced" link to display all tags

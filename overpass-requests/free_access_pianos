@@ -1,0 +1,21 @@
+/*
+    OpenPianosMap - freely accessible pianos (green on map)
+*/
+
+(
+/* find pianos nodes and put result in .a */
+  (
+     node[amenity=piano];
+     node[musical_instrument=piano];
+     node["musical_instrument:piano"=yes];
+  ) -> .a;
+
+/* filter .a by access=public or operator="SNCF" */
+(
+  node.a[access=public]; node.a[operator ~ "SNCF|sncf"];
+) -> .b;
+
+);
+
+/* render filtered set */
+.b out;
