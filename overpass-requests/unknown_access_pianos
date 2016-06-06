@@ -9,14 +9,16 @@
      node[musical_instrument=piano];
      node["musical_instrument:piano"=yes];
   ) -> .a;
-
-/* filter .a by access=public or operator="SNCF" */
-(
-  node.a[access=public]; node.a[operator ~ "SNCF|sncf"];
-) -> .b;
-
+/* filter by shop = musical_instrument */
+  (
+    node.a[shop = musical_instrument];
+  ) -> .b;
+/* filter by public access */
+  (
+    node.a[access=public]; node.a[operator ~ "SNCF|sncf"];
+  ) -> .c;
 );
 
-/* render intersection between .a and .b */
-(.a - .b);
+/* return nodes that are not piano shops and not public access */
+((.a - .b) - .c);
 out;

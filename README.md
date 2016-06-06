@@ -62,10 +62,6 @@ For it we could use :
   - musical_instrument=piano
   - musical_instrument=digital_piano
 
-### Remove pianos stores
-
-Remove `shop=musical_instrument` in results
-
 ### Add all *pianos en gare* French project
 
 The "pianos en gare" is a French project by the french railway service (SNCF) to place pianos in railways stations: http://www.sncf.com/fr/presse/carte/pianos-gares.
