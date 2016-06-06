@@ -40,7 +40,7 @@ This are informations to add via OSM tags
 For the moment, there's no way to distinguish a bar with a place with a piano freely accessible and a place with a piano, but only reserved for concert for example.
 As the aim of the project is to quickly find on a map freely accessible pianos, it's an important point to decide.
 
-What not using [access](http://wiki.openstreetmap.org/wiki/FR:Key:access) tag as it's used by the (toilets)[http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets] tag ?
+What not using [access](http://wiki.openstreetmap.org/wiki/FR:Key:access) tag as it's used by the [toilets](http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) tag ?
 For me its make sens to see:
 
   - *access=yes* explicitly public and open to whoever.
