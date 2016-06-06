@@ -15,7 +15,7 @@
   ) -> .b;
 /* filter by public access */
   (
-    node.a[access=public]; node.a[operator ~ "SNCF|sncf"];
+    node.a[access ~ "yes|public"]; node.a[operator ~ "SNCF|sncf"];
   ) -> .c;
 );
 

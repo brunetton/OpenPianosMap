@@ -17,7 +17,7 @@ http://www.cartes.xyz/t/e5c83c-Pianos_map
     - nodes with `musical_instrument=piano`
     - nodes with `musical_instrument:piano=yes`
     - with:
-      - `access=public`
+      - `access=yes`
       - **or**
       - `operator=SNCF`
 
