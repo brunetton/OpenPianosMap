@@ -75,3 +75,5 @@ This is inherent to MapContrib evolutions, but it could be great to have some in
   - place name
   - photo (if any)
   - "advanced" link to display all tags
+
+=> See https://github.com/MapContrib/MapContrib/issues/130
