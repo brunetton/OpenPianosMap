@@ -62,10 +62,10 @@ For it we could use :
   - musical_instrument=piano
   - musical_instrument=digital_piano
 
-### Add all *pianos en gare* French project
+### ~~Add all *pianos en gare* French project~~
 
-The "pianos en gare" is a French project by the french railway service (SNCF) to place pianos in railways stations: http://www.sncf.com/fr/presse/carte/pianos-gares.
-`operator=SNCF` is generally filled
+~~The "pianos en gare" is a French project by the french railway service (SNCF) to place pianos in railways stations: http://www.sncf.com/fr/presse/carte/pianos-gares.
+`operator=SNCF` is generally filled~~  => done (66 pianos added)
 
 ### Add infos when clicking
 
