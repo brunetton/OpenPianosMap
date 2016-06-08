@@ -1,5 +1,7 @@
 # OpenPianosMap
 
+![](images/screenshot.png)
+
 ## Overview
 
 The goal of this project is to create an open source map of accessibles pianos (freely or not).
