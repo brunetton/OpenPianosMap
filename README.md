@@ -24,7 +24,16 @@ I suggest to tag piano this way: create a node with this tags:
   - add piano type: "real" piano or electronic piano ?
     - `musical_instrument=piano`: a "real" piano (with strings and hammers)
     - `musical_instrument=digital_piano`: an electronic piano
-  - is it a SNCF piano, in a trainstation ? Then add `operator=SNCF`
+  - is it a SNCF piano in a trainstation ? Then add:
+    - `operator=SNCF`
+  - is the position estimaated ? Then add:
+    - `fixme=position`
+  - to make clear you followed this guide, you can add:
+    - `note=https://github.com/brunetton/OpenPianosMap`
+  - if you read the piano existence information somewhere, you can link the source:
+    - `source=http://somewhere/on/the/internet` (see [this node for example](https://github.com/brunetton/OpenPianosMap))
+  - if you want to take a picture of the piano (what a **great idea !**), put it somewhere on the internet (https://www.openstreetcam.org/ is a great place) and add:
+    - `source_ref=http://example.com/123.jpg`
 
 ## Tags used
 
