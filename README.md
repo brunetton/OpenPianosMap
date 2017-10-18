@@ -12,6 +12,20 @@ For the moment, the project is "just" a filter defined on [MapContrib](https://g
 The map is here :
 http://www.cartes.xyz/t/e5c83c-Pianos_map
 
+## How to add a piano ?
+
+I suggest to tag piano this way: create a node with this tags:
+
+  - `amenity=piano`
+  - add access details:
+    - `access=yes`: explicitly public and open to whoever
+    - `access=permissive`: while nominally private, no visible attempt is made to restrict access, and casual use appears to be tolerated by the owners
+    - `access=customers`: while open to the public, the clear policy is to require a purchase prior to use.
+  - add piano type: "real" piano or electronic piano ?
+    - `musical_instrument=piano`: a "real" piano (with strings and hammers)
+    - `musical_instrument=digital_piano`: an electronic piano
+  - is it a SNCF piano, in a trainstation ? Then add `operator=SNCF`
+
 ## Tags used
 
   - for free access pianos (**green** on map):
@@ -22,7 +36,6 @@ http://www.cartes.xyz/t/e5c83c-Pianos_map
       - `access=yes`
       - **or**
       - `operator=SNCF`
-
 
   - for other pianos (**gray** on map): Same as above, but without `acess=public` or `operator=SNCF` tags
 
