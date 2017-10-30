@@ -26,14 +26,39 @@ I suggest to tag piano this way: create a node with this tags:
     - `musical_instrument=digital_piano`: an electronic piano
   - is it a SNCF piano in a trainstation ? Then add:
     - `operator=SNCF`
-  - is the position estimaated ? Then add:
+  - is the position estimated ? Then add:
     - `fixme=position`
   - to make clear you followed this guide, you can add:
     - `note=https://github.com/brunetton/OpenPianosMap`
   - if you read the piano existence information somewhere, you can link the source:
     - `source=http://somewhere/on/the/internet` (see [this node for example](https://github.com/brunetton/OpenPianosMap))
-  - if you want to take a picture of the piano (what a **great idea !**), put it somewhere on the internet (https://www.openstreetcam.org/ is a great place) and add:
-    - `source_ref=http://example.com/123.jpg`
+
+### Add a photo ?
+
+If you want to take a picture of the piano (what a **great idea !**), put it somewhere on the internet (https://www.mapillary.com/ or https://www.openstreetcam.org/ seems to be good places for that).
+
+#### Set GPS coordinates
+
+Pianos are often indoor; and gps can be unable to fix. In that case, we'll have to manually set GPS coords of images:
+
+    exiftool -overwrite_original -GPSLatitude="48.8926936" -GPSLongitude="2.239364" *.jpg
+
+#### Upload photo
+
+- uploading to Mapillary is really simple and can be done from website.
+- uploading from OpenStreetCam is not so easy. See [here](openstreetcam-howto.md) how to upload to OpenStreetCam (using command line)
+
+#### Add tags to node
+
+  - for Mapillary:
+    - `image=https://www.mapillary.com/map/im/<mapillary_image_key>`
+    - `mapillary=<mapillary_image_key>` (image key is given on image details on website)
+  - for OpenStreetCam:
+    - `image=https://www.openstreetcam.org/details/959557/2` (to adapt to each photo, of course)
+
+Example: [this piano node have photos](http://www.openstreetmap.org/node/5175455028) (OpenStreetCam and Mapillary).
+
+=> read more about photo linking is OSM [in OSM Wiki](https://wiki.openstreetmap.org/wiki/Photo_linking)
 
 ## Tags used
 
