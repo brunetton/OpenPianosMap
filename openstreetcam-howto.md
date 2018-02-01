@@ -1,7 +1,7 @@
 # Upload to OpenStreetCam using command-line tool
 
 - if not already done, create an account on [OpenStreetCam website](https://www.openstreetcam.org/)
-- download [openstreetcam/upload-scripts](git@github.com:openstreetcam/upload-scripts.git)
+- download [openstreetcam/upload-scripts](https://github.com/openstreetcam/upload-scripts)
 - use the script:
 
         python3 upload_photos_by_exif/upload_exif.py -p ~/tmp/piano/out/
