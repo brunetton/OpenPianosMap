@@ -20,5 +20,5 @@
 );
 
 /* return nodes that public access and are not piano shops */
-(.b - .c);
+(.b; - .c;);
 out;
