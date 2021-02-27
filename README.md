@@ -12,6 +12,8 @@ For the moment, the project is "just" a filter defined on [MapContrib](https://g
 The map is here :
 http://www.cartes.xyz/t/e5c83c-Pianos_map
 
+For a mobile Android app, you can use the great OpenMultiMaps available [on F-droid](https://f-droid.org/packages/app.fedilab.openmaps), then go to contributions -> mapcontrib
+
 ## How to add a piano ?
 
 I suggest to tag piano this way: create a node with this tags:
