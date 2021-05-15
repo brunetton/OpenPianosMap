@@ -1,6 +1,6 @@
 # OpenPianosMap
 
-![](images/screenshot.png)
+![](images/screenshot.jpg)
 
 ## Overview
 
