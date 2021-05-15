@@ -10,7 +10,7 @@ Data will be hosted on OpenStreetMap.
 For the moment, the project is "just" a filter defined on [MapContrib](https://github.com/MapContrib/MapContrib).
 
 The map is here :
-http://www.cartes.xyz/t/e5c83c-Pianos_map
+https://www.mapcontrib.xyz/t/e5c83c-OpenPianosMap
 
 For a mobile Android app, you can use the great OpenMultiMaps available [on F-droid](https://f-droid.org/packages/app.fedilab.openmaps), then go to contributions -> mapcontrib
 
