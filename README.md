@@ -125,4 +125,4 @@ This is inherent to MapContrib evolutions, but it could be great to have some in
   - photo (if any)
   - "advanced" link to display all tags
 
-=> See https://github.com/MapContrib/MapContrib/issues/130
+=> See https://gitlab.com/mapcontrib/mapcontrib.next/-/issues/1
