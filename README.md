@@ -9,10 +9,13 @@ Data will be hosted on OpenStreetMap.
 
 For the moment, the project is "just" a filter defined on [MapContrib](https://github.com/MapContrib/MapContrib).
 
-The map is here :
-https://www.mapcontrib.xyz/t/e5c83c-OpenPianosMap
+~~The map is here :~~
+~~https://www.mapcontrib.xyz/t/e5c83c-OpenPianosMap~~
+
+**2025 update**: mapcontrib project has been abandonned (https://forum.openstreetmap.fr/t/du-developpement-pour-mapcontrib/23868) so there is **no map for now** (I'll make one soon, or not soon)
 
 For a mobile Android app, you can use the great OpenMultiMaps available [on F-droid](https://f-droid.org/packages/app.fedilab.openmaps), then go to contributions -> mapcontrib
+
 
 ## How to add a piano ?
 
